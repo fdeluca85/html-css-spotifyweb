@@ -187,9 +187,25 @@ footer{
         position: absolute;
         z-index: 999;  
     }
+    .playlist{
+        overflow: auto;
+    }
 }
 
-@media screen and (min-width: 577px){
+
+/* *****responsive tablet***** */
+
+@media screen and (max-width: 768px){
+    .comuni{        
+        flex-wrap: wrap;
+        flex-grow:4;
+        gap: 5px; 
+        margin-bottom: 20px;
+    }
+}
+
+/* *****responsive smartphone***** */
+@media screen and (min-width: 480px){
     #logo{
         width: 55%;
         margin:20px;   
@@ -201,8 +217,7 @@ footer{
     }
 }
 
-
-@media screen and (max-width: 576px){
+@media screen and (max-width: 479px){
     .sez-main{
         width: calc(100% - 50px);
     }
@@ -230,6 +245,8 @@ footer{
     .sidebar-top{
         margin: 0;
     }
+
+    
 }
 
 
