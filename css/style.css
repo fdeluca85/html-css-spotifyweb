@@ -7,31 +7,99 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .row::after{
     content: "";
     display: table;
     clear: both;
 }
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    width: 90%;
+    float: left;
+    text-align: center;
+}
+
 /* *****main***** */
 
 main{
     height: calc(100vh - 150px);
 }
 
+/* *****sidebar***** */
 .sidebar{
     background-color: #000000;
     height: 100%;
-    width: 300px;
+    width: 250px;
     display: flex;
+    flex-direction: column;
     float: left;
 }
+#logo{
+    width: 55%;
+    margin:20px;
+}
+
+
+.app{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* *****sezione principale***** */
 .sez-main{
     background-color: #141922;
     height: 100%;
-    width: calc(100% - 300px);
+    width: calc(100% - 250px);
     display: flex;
-    float: left;
+    flex-direction: column;
+    overflow: auto;
+    
+    
+}
+.navbar{
+    height: 50px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.comuni{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: stretch; 
+    gap: 5px; 
+    margin-bottom: 20px;
+}
+.played{
+    height: 400px;
+    background-color: tomato;
+    
+}
+
+.creato{
+    height: 400px;
+    background-color: yellow;
+    /* overflow: auto; */
+}
+
+.popolari{
+    height: 400px;
+    background-color: seagreen;
+    /* overflow: auto; */
+}
+.blocco{
+    height: 300px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    display: flex;
 }
 
 /* ******top main***** */
