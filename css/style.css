@@ -28,7 +28,7 @@ nav{
 /* *****main***** */
 
 main{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 100px);
 }
 
 /* *****sidebar***** */
@@ -40,15 +40,26 @@ main{
     flex-direction: column;
     float: left;
 }
+
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 80px);
+}
 #logo{
     width: 55%;
     margin:20px;
 }
 
-
-.app{
+.sidebar-bottom{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    height: 80px;
+    background-color: indianred;
+
+}
+.app{
+    
 }
 
 
@@ -108,7 +119,8 @@ main{
     height: 100px;
     width: 100%;
     display: flex;
-    float: left;
+    float: left;  
+    
 }
 .btn{
     border: 1px solid white;
@@ -118,7 +130,8 @@ main{
     display:inline-block;
     color: white;
     text-transform: uppercase;
-    font-size: 13px;    
+    font-size: 13px; 
+    
 }
 .upgrade{
     width: 100%;
@@ -131,9 +144,33 @@ main{
 footer{
     background-color: #282828;
     width: 100%;
-    height: 150px;
+    height: 100px;
+    position: absolute;
+    z-index: 990;
+    display: flex;  
     
 }
+
+.nav-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+/* *****responsive***** */
+
+@media screen and (max-height: 149px){
+    .btn{
+        position: absolute;
+        z-index: 999;  
+    }
+}
+
+
+
+
 /* *****debug***** */
 
 /* .debug .sidebar{
@@ -188,3 +225,16 @@ footer{
     height: 150px;
     border: 2px solid black;
 } */
+
+.debug .foot-sx{
+    background-color: lightgreen;  
+}
+.debug .foot-cx{
+    background-color: lightpink;
+}
+.debug .foot-dx{
+    background-color:aquamarine;
+}
+
+
+
