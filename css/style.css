@@ -65,33 +65,33 @@ main{
 }
 .navbar{
     height: 50px;
-    background-color: #fff;
+    /* background-color: #fff; */
     width: 100%;
 }
 
 .comuni{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
-    align-content: stretch; 
+    /* align-content: stretch;  */
     gap: 5px; 
     margin-bottom: 20px;
 }
 .played{
-    height: 400px;
-    background-color: tomato;
+    /* height: 400px; */
+    /* background-color: tomato; */
     
 }
 
 .creato{
-    height: 400px;
-    background-color: yellow;
+    /* height: 400px; */
+    /* background-color: yellow; */
     /* overflow: auto; */
 }
 
 .popolari{
-    height: 400px;
-    background-color: seagreen;
+    /* height: 400px; */
+    /* background-color: seagreen; */
     /* overflow: auto; */
 }
 .blocco{
@@ -162,7 +162,23 @@ footer{
     border: 2px solid black;
     float: left;
 } */
+/* .debug .played{
+    height: 400px;
+    background-color: tomato;
+    
+} */
 
+/* .debug .creato{
+    height: 400px;
+    background-color: yellow;
+    overflow: auto;
+} */
+
+/* .debug .popolari{
+    height: 400px;
+    background-color: seagreen;
+    overflow: auto;
+} */
 
 
 
