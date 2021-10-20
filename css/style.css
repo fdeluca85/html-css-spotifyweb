@@ -95,19 +95,48 @@ main{
     
     
 }
+/* ******top main***** */
+.sez-top-main{
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 100px;
+    width: calc(100% - 250px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 30px 5px;
+    padding: 10px 30px;
+    display:inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px; 
+    
+}
+.upgrade{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
 .navbar{
     height: 50px;
     /* background-color: #fff; */
     width: 100%;
 }
 
+/* *****parte centrale***** */
 .comuni{
     display: flex;
     /* justify-content: space-between; */
     flex-wrap: nowrap;
     /* align-content: stretch;  */
     gap: 15px; 
-    margin-bottom: 20px;
+    margin-top: 90px;
+    padding: 20px;
 }
 .played{
     /* height: 400px; */
@@ -130,31 +159,7 @@ main{
     width: 90%;
 }
 
-/* ******top main***** */
-.sez-top-main{
-    background-color: #080B12;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    float: left;  
-    
-}
-.btn{
-    border: 1px solid white;
-    border-radius: 40px;
-    margin: 30px 5px;
-    padding: 10px 30px;
-    display:inline-block;
-    color: white;
-    text-transform: uppercase;
-    font-size: 13px; 
-    
-}
-.upgrade{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 /* *****footer****** */
 
@@ -162,8 +167,8 @@ footer{
     background-color: #282828;
     width: 100%;
     height: 100px;
-    position: absolute;
-    z-index: 990;
+    position: fixed;
+    z-index: 1;
      
     
 }
@@ -220,6 +225,10 @@ footer{
     .sidebar{
         width: 50px;
         align-items: center;
+    }
+    .sez-top-main{
+        width: calc(100% - 50px);
+        
     }
 
     .playlist{
