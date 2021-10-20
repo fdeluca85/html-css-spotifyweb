@@ -228,11 +228,23 @@ footer{
 .foot-cx{
     width: 70%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.player-icon{
+    padding: 20px;
+}
+.player-icon i{
+    padding: 0 10px;
+}
+.barra{
+    display: inline;
+}
+.barra span{
+    display: inline;
+}
 /* *****fine footer parte centrale***** */
-
 
 /* *****footer parte destra***** */
 .foot-dx{
@@ -244,7 +256,14 @@ footer{
 .utils{
     padding: 20px 10px;
 }
-
+.slider {
+    width: 50%;
+    height: 15px;
+    background: #d3d3d3;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity .2s;
+  }
   .slider:hover {
     opacity: 1;
   }
