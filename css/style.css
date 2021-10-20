@@ -200,15 +200,14 @@ footer{
     align-items: center;
     
 }
-
+/* *****footer parte sinistra***** */
 .foot-sx{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .song{
-    padding: 20px 10px;
-    
+    padding: 20px 10px;    
 }
 .song img{
     height: 50px;
@@ -223,18 +222,33 @@ footer{
 .brano{
     font-size: 10px;
 }
+/* *****fine footer parte sinistra***** */
+
+/* *****footer parte centrale***** */
 .foot-cx{
     width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* *****fine footer parte centrale***** */
+
+
+/* *****footer parte destra***** */
 .foot-dx{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
 }
+.utils{
+    padding: 20px 10px;
+}
+
+  .slider:hover {
+    opacity: 1;
+  }
+/* *****fine footer parte destra***** */
 /* *****responsive***** */
 
 /* @media screen and (max-height: 149px){
