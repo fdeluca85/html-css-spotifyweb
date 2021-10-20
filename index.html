@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="debug">
     <!-- inizio main -->
@@ -38,33 +39,38 @@
                 <!-- playlist -->
                 
 
-                <div class="playlist">
+                <div class="lista">
                     <h3>Playlist</h3>
-                    <ul>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                        <li><a href="#">Nome playlist</a></li>
-                    </ul>
+                    <a href="#"><i class="fas fa-plus-square"></i> Crea Playlist</a>
+                    <div class="playlist">
+                        <ul>
+                            <li><a href="#">Nome playlist</a></li>
+                            <li><a href="#">Nome playlist</a></li>
+                            <li><a href="#">Nome playlist</a></li>
+                            <li><a href="#">Nome playlist</a></li>
+                            <li><a href="#">Nome playlist</a></li>
+                            <li><a href="#">Nome playlist</a></li>
+                            <li><a href="#">Nome playlist</a></li>
+                        </ul>
+                    </div>
+                    
                 </div>
                 <!-- /playlist -->
             </div>
 
             <div class="sidebar-bottom">
-                <!-- app -->
-            <div class="app">
-                
-                    <div><a href="#"><img src="./img/download.svg" alt=""><span> Installa app</span></a></div>
-                    <div class="barra"></div>
-                    <div class=""><a href="#"><img src="./img/profile.svg" alt=""><span> John Doe</span></a></div>
-                    
-               
-            </div>
-            <!-- /app -->
-            </div>
+                <!-- download -->
+                <div id="download">
+                    <a href="#"><img src="./img/download.svg" alt=""><span> Installa app</span></a>
+                </div>
+                <!-- /download -->
+
+                <!-- user -->
+                <div id="user">
+                    <a href="#"><img src="./img/profile.svg" alt=""><span> John Doe</span></a>
+                </div>
+                <!-- /user -->                 
+             </div>
 
 
         </div>
