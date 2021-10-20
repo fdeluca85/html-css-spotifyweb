@@ -35,7 +35,12 @@ li{
 main{
     height: calc(100vh - 100px);
 }
-
+h2{
+    padding-left: 20px;
+}
+p{
+    padding-left: 20px;
+}
 /* *****sidebar***** */
 .sidebar{
     background-color: #000000;
@@ -169,7 +174,19 @@ main{
     display: flex;
     flex-wrap: nowrap;
 }
-
+.blocco{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.titolo{
+    font-size: 15px;
+    font-weight: bold;
+}
+.sottotitolo{
+    font-size: 12px;
+    color: #A3A3A3;
+    font-weight: blod;
+}
 .creato{
     width: 60%;
 
@@ -229,7 +246,7 @@ footer{
     width: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .player-icon{
@@ -268,17 +285,9 @@ footer{
     opacity: 1;
   }
 /* *****fine footer parte destra***** */
-/* *****responsive***** */
 
-/* @media screen and (max-height: 149px){
-    .btn{
-        position: absolute;
-        z-index: 999;  
-    }
-    .playlist{
-        overflow: auto;
-    }
-} */
+
+/* *****responsive***** */
 
 
 /* *****responsive tablet***** */
