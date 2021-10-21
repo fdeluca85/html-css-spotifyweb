@@ -179,16 +179,17 @@ p{
 .comuni{
     display: flex;
     padding: 20px;
+    text-align: center;
 }
+
+/* ******recently played***** */
 .played{
     display: flex;
     flex-wrap: nowrap;
 }
-.blocco{
-    text-align: center;
-    padding-bottom: 20px;
-}
+
 .titolo{
+    margin-top: 10px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -197,21 +198,31 @@ p{
     color: #A3A3A3;
     font-weight: blod;
 }
-.creato{
-    width: 60%;
 
+/* ******creato per j.d****** */
+.creato{
+    /* width: 60%; */
+    display: flex;
+    flex-wrap: nowrap;
 }
 
+
+/* ******popolari***** */
 .popolari{
-    width: 60%;
+    /* width: 60%; */
+    display: flex;
+    flex-wrap: nowrap;
     }
 
 .popolari img{
-    border-radius: 50%;
-    
+    border-radius: 50%;    
 }
-
-
+#lana img{
+    width: 80%;
+}
+#einaudi img{
+    width: 75%;
+}
 /* *****footer****** */
 
 footer{
@@ -234,6 +245,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+.foot-sx
 .song{
     padding: 20px 10px;    
 }
@@ -276,7 +288,28 @@ footer{
 .player-icon i{
     padding: 0 10px;
 }
-
+.fa-play-circle{
+    font-size: 25px;
+}
+.barra{
+    display: inline-block;
+    position: relative;
+}
+.barrabg{
+    width: 200px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #5A5A5A;
+    
+}
+.barracol{
+    position: relative ;
+    top: 5px;
+    width: 50px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #C1C1C1;    
+}
 /* *****fine footer parte centrale***** */
 
 /* *****footer parte destra***** */
@@ -289,9 +322,22 @@ footer{
 .utils{
     padding: 20px 10px;
 }
-.fa-play-circle{
-    font-size: 25px;
+.barravbg{
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #5A5A5A;
+    
 }
+.barravol{
+    position: relative ;
+    top: 5px;
+    width: 50px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #C1C1C1;    
+}
+
 /* *****fine footer parte destra***** */
 
 
@@ -310,6 +356,18 @@ footer{
     }
 }
 
+@media screen and (max-width: 725px){
+    .foot-sx i{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 669px){
+    
+    .foot-dx{
+        display: none;
+    }
+}
 /* *****responsive smartphone***** */
 @media screen and (min-width: 480px){
     #logo{
@@ -362,7 +420,12 @@ footer{
     .sez-main img{
         width: 50%;
     }
-    
+    .foot-sx{
+        display: none;
+    }
+    .foot-cx{
+        width: 100%;
+    }
 }
 
 

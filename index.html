@@ -99,32 +99,32 @@
             <h2>Recently played</h2>
             <div class="played comuni row">
                 
-                <div class="blocco">
+                <div>
                     <img src="./img/metal_lifting.jpg" alt="">
                     <div class="titolo">Havy Meltal</div>
                     <div class="sottotitolo">Subtitle</div>
                 </div>
-                <div class="blocco">
+                <div>
                     <img src="./img/stranger.jpeg" alt="">
                     <div class="titolo">Stranger Things Vol.1</div>
                     <div class="sottotitolo">Kyle Dixon & Micheal Stein</div>
                 </div>
-                <div class="blocco">
+                <div>
                     <img src="./img/aquietplace.jpeg" alt="">
                     <div class="titolo">A quiet place</div>
                     <div class="sottotitolo">Subtitle</div>
                 </div>
-                <div class="blocco">
+                <div>
                     <img src="./img/split.jpeg" alt="">
                     <div class="titolo">Split</div>
                     <div class="sottotitolo">Subtitle</div>
                 </div>
-                <div class="blocco">
+                <div>
                     <img src="./img/cure.jpeg" alt="">
                     <div class="titolo">A cure for wellness</div>
                     <div class="sottotitolo">Subtitle</div>
                 </div>
-                <div class="blocco">
+                <div>
                     <img src="./img/sinister.jpeg" alt="">
                     <div class="titolo">Sinister</div>
                     <div class="sottotitolo">Subtitle</div>
@@ -137,11 +137,11 @@
             <h2>Creato per John Doe</h2>
             <p class="sottotitolo">Più ascolti, più accurati saranno i suggerimenti</p>
             <div class="creato comuni row">
-                <div class="blocco">
+                <div id="radar">
                     <img src="./img/radar.jpeg" alt="">
                     <div class="titolo">Relase radar</div>
                 </div>
-                <div class="blocco">
+                <div id="dailymix">
                     <img src="./img/mixdaily.jpeg" alt="">
                     <div class="titolo">Daily Mix 1</div>
                 </div>
@@ -152,9 +152,9 @@
             <h2>Artisti più popolari</h2>
             <p class="sottotitolo">Più ascolti, più accurati saranno i suggerimenti</p>
             <div class="popolari comuni row">
-                <div class="blocco"><img src="./img/youg.jpeg" alt=""><a href="#"><div class="titolo">Lana Del Rey</div></a>
+                <div id="lana"><img src="./img/youg.jpeg" alt=""><a href="#"><div class="titolo">Lana Del Rey</div></a>
                 </div>
-                <div class="blocco"><img src="./img/einaudi.jpeg" alt=""><a href="#"><div class="titolo">Ludovico Einaudi</div></a></div>
+                <div id="einaudi"><img src="./img/einaudi.jpeg" alt=""><a href="#"><div class="titolo">Ludovico Einaudi</div></a></div>
             </div>
             <!-- /artisti popolari -->          
         </div>
@@ -190,7 +190,10 @@
                 </div>
                 <div class="progressbar">
                     <span>0:25</span>
-                    <progress id="progsong" max="100" value="20"></progress>
+                    <div class="barra">
+                        <div class="barracol"></div>
+                        <div class="barrabg"></div>                    
+                    </div>
                     <span>4:50</span>
                 </div>
                 
@@ -199,7 +202,10 @@
                 <i class="fas fa-list utils"></i>
                 <i class="fas fa-desktop utils"></i>
                 <i class="fas fa-volume-up utils"></i>
-                <progress id="volume" max="100" value="70"></progress>
+                <div class="barra">
+                    <div class="barravol"></div>
+                    <div class="barravbg"></div>                    
+                </div>
             </div>
             
     
