@@ -226,8 +226,7 @@ main{
 .sottotitolo{
     font-size: 12px;
     color: #A3A3A3;
-    font-weight: blod;
-}
+    }
 
 /* ******creato per j.d****** */
 .creato img{
@@ -266,9 +265,9 @@ footer{
     align-items: center;
 }
 
-/* .song{
-    padding: 20px 10px;    
-} */
+.foot-sx i{
+    padding: 5px;}
+    
 .disco img{
     height: 50px;
     margin: 0 10px;
@@ -285,17 +284,7 @@ footer{
     font-size: 10px;
 }
 
-/* ******hover****** */
-.pref-hover{
-    color: red;
-    display: none;
-}
-.pref-icon:hover{
-    display: none;
-}
-.pref-hover:hover{
-    display: inline-block;
-}
+
 /* *****fine footer parte sinistra***** */
 
 /* *****footer parte centrale***** */
@@ -316,7 +305,7 @@ footer{
     font-size: 25px;
 }
 
-/* ******arra avanzamento***** */
+/* ******barra avanzamento***** */
 .barra{
     display: inline-block;
     position: relative;
@@ -388,11 +377,15 @@ footer{
     .foot-sx span{
         display: block;
     }
+    .foot-dx .utils{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 669px){
     
-    .foot-dx{
+    
+    .foot-sx .icon-sx{
         display: none;
     }
 }
@@ -448,6 +441,9 @@ footer{
         width: 160px;
     }
     .foot-sx{
+        display: none;
+    }
+    .foot-dx{
         display: none;
     }
     .foot-cx{
