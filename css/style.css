@@ -231,7 +231,7 @@ main{
 
 /* ******creato per j.d****** */
 .creato img{
-    width: 80%;
+    width: 200px;
     margin-left: 10px;
 }
 
@@ -266,14 +266,16 @@ footer{
     align-items: center;
 }
 
-.song{
+/* .song{
     padding: 20px 10px;    
-}
-.song img{
+} */
+.disco img{
     height: 50px;
+    margin: 0 10px;
 }
 .song span{
     display: block;
+    margin: 0 10px;
 }
 .autore{
     font-size: 15px;
@@ -383,8 +385,8 @@ footer{
 }
 
 @media screen and (max-width: 725px){
-    .foot-sx i{
-        display: none;
+    .foot-sx span{
+        display: block;
     }
 }
 
