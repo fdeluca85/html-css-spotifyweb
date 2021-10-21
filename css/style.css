@@ -32,12 +32,12 @@ li{
 
 }
 a:hover{
-    font-weight: bold;    
+    font-weight: bold;
+    color: white;    
     }
-/* *****main***** */
-
-main{
-    height: calc(100vh - 100px);
+h3{
+    margin: 30px 0 10px 0;
+    color: white;
 }
 h2{
     padding-left: 20px;
@@ -45,6 +45,12 @@ h2{
 p{
     padding-left: 20px;
 }
+/* *****main***** */
+
+main{
+    height: calc(100vh - 100px);
+}
+
 /* *****sidebar***** */
 .sidebar{
     background-color: #000000;
@@ -62,9 +68,7 @@ p{
 .sidebar li:hover{
     border-left: 2px solid green;
     }
-.link{
-    margin-bottom: 20px;
-}
+
 .link img{
     height: 30px;
     vertical-align: middle;
@@ -87,10 +91,6 @@ p{
     height: 50px;
     vertical-align: middle;
 }
-.lista h3{
-    margin-bottom: 10px;
-    color: white;
-}
 
 .sidebar-bottom{
     display: flex;
@@ -112,7 +112,7 @@ p{
     padding: 10px;
     font-weight: bold;
     }
-#user a{
+#user span{
         color: white;
     }
 
@@ -215,9 +215,9 @@ p{
 }
 
 /* ******recently played***** */
-.sez-main img{
+.played img{
     width: 100%;
-} 
+}
 .titolo{
     margin-top: 10px;
     font-size: 15px;
@@ -231,16 +231,16 @@ p{
 
 /* ******creato per j.d****** */
 .creato img{
-    width: 200px;
+    width: 80%;
     margin-left: 10px;
 }
-
 
 /* ******popolari***** */
 
 .popolari img{
+    width: 200px;
     border-radius: 50%;   
-    margin-left: 10px; width: 200px;
+    margin-left: 10px; 
 }
 
 /* *****footer****** */
